@@ -1,0 +1,16 @@
+<model-viewer src="c milkcow.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.16194201175810607m 0.2636555707013991m -0.32734835283222263m" data-normal="0.8211369371851482m -0.5661392048828092m 0.07225324272899342m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">尾巴</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="0.013305391306405531m 0.47299067030604747m 0.4213329825039816m" data-normal="0.1245114227065923m 0.8936937287129151m 0.43105501374509836m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">頭</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>

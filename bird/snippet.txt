@@ -1,0 +1,18 @@
+<model-viewer src="c eastern_blue_bird.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.056508359689866665m 0.08236137615421395m -1.43029312790893m" data-normal="-0.7127548561873257m -0.3258989873796632m -0.6211041498865507m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">眼睛</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-0.06627290830219074m 0.003611609473508623m -1.456390926510584m" data-normal="-0.7370637285281766m 0.3037184792439552m -0.6037318489643243m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">腳</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="-0.07483463188300984m 0.05731380240123155m -1.4811167511446182m" data-normal="-0.7611992163948186m 0.5199109383487813m -0.3876446428692187m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">翅膀</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
